@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "daewa",
+    "name": "Dr Zakir Amharic",
     "slug": "daewa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/zak.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/zaksplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#839dae"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/zakicon.png",
+        "backgroundColor": "#839dae"
+      },
+      "package": "com.aosqa.daewa"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55b76e91-0f7c-4429-8580-4942a7906f66"
+      }
     }
   }
 }
