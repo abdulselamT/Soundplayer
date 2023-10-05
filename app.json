@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Dr Zakir Amharic",
+    "name": "Bafedl Amharic Daewa TV",
     "slug": "daewa",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/zak.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/zaksplash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#839dae"
+      "backgroundColor": "#3399ff"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,8 +19,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/zakicon.png",
-        "backgroundColor": "#839dae"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3399ff"
       },
       "package": "com.aosqa.daewa"
     },
